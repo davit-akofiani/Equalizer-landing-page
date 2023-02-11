@@ -1,0 +1,29 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgba(252, 250, 249, 1);
+    
+}
+.logo{
+    margin: 2.5rem 0 4rem 1.5rem;
+}
+/* first section */
+.first-section{
+    width: 327px;
+    margin: 0 1.5rem;
+}
+.text1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-bottom: 1.3rem;
+}
+.paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    
+}
