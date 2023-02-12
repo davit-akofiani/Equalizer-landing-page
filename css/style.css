@@ -1,6 +1,9 @@
 body{
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: rgba(252, 250, 249, 1);
+    background-image: url(../image/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top -18rem left;
     
 }
 .logo{
@@ -9,7 +12,7 @@ body{
 /* first section */
 .first-section{
     width: 327px;
-    margin: 0 1.5rem;
+    margin: 0 1.5rem 10rem;
 }
 .text1{
     font-style: normal;
@@ -24,6 +27,97 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
     
+    
+}
+/* second section */
+.section-second{
+    width: 375px;
+    position: relative;
+    background-color: rgba(25, 24, 38, 1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+.phone-image{
+    width: 270px;
+    position: absolute;
+    top: -98px;
+    
+}
+/* section thitd */
+.section-third{
+    width: 375px;
+    background-color: rgba(250, 116, 83, 1);
+    border-radius: 12px;
+    padding: 3rem 2.3rem ;
+}
+.h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(252, 250, 249, 1);
+
+}
+.paragraph2{
+    width: 302px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(252, 250, 249, 1);
+}
+.span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: rgba(252, 250, 249, 1);
+}
+.paragraph3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+/* button android and apple */
+/* apple */
+.apple{
+    width: 296px;
+    height: 61px;
+    background-color: rgba(25, 24, 38, 1);
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+}
+/* android */
+.android{
+    width: 296px;
+    background-color: rgba(252, 250, 249, 1);
+    height: 61px;
+    border-radius: 12px;
+    
+}
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    padding: 0 1.5rem;
+}
+.logo-footer{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer-paragraph{
+    width: 327px;
+    margin-bottom: 3rem;
+}
+.span-footer{
+    font-weight: 700;
 }
