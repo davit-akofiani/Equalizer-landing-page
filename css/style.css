@@ -4,10 +4,14 @@ body{
     background-image: url(../image/bg-main-mobile.png);
     background-repeat: no-repeat;
     background-position: top -18rem left;
+    overflow-x: hidden;
     
 }
 .logo{
     margin: 2.5rem 0 4rem 1.5rem;
+}
+.pattern{
+    display: none;
 }
 /* first section */
 .first-section{
@@ -55,6 +59,7 @@ body{
     background-color: rgba(250, 116, 83, 1);
     border-radius: 12px;
     padding: 3rem 2.3rem ;
+    
 }
 .h2{
     font-style: normal;
@@ -151,4 +156,62 @@ footer{
     width: 100px;
     display: flex;
     justify-content: space-around;
+}
+/* tablet mode wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+@media screen and (min-width: 375px) {
+    body{
+        
+        background-image: url(../image/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position: top -20rem left -10rem;
+        padding: 0 2.4rem 0 2.05rem;
+    }
+    .logo{
+        left: 2.4rem;
+        top: 4rem;
+    }
+    .pattern{
+        width: 266px;
+        display: inline;
+        position: absolute;
+        top: -50px;
+        right: -20px ;
+        
+
+    }
+    .text1{
+        width: 520px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .paragraph{
+        width: 520px;
+    }
+    /* second section */
+    .section-second{
+        width: 696px;
+    }
+    .phone-image{
+        left: 4rem;
+    }
+    /* third section */
+    .section-third{
+        left: 239px;
+        top: -450px;
+        
+        
+    }
+
+    /* footer section */
+    .footer-paragraph{
+        width: 366px;
+    }
+    .text-icon{
+        width: 696px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
