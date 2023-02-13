@@ -33,6 +33,7 @@ body{
 /* second section */
 .section-second{
     width: 375px;
+    padding-bottom: 200px;
     position: relative;
     background-color: rgba(25, 24, 38, 1);
     border-radius: 12px;
@@ -45,9 +46,12 @@ body{
     top: -98px;
     
 }
+
 /* section thitd */
 .section-third{
+    position: relative;
     width: 375px;
+    top: -100px;
     background-color: rgba(250, 116, 83, 1);
     border-radius: 12px;
     padding: 3rem 2.3rem ;
@@ -58,6 +62,7 @@ body{
     font-size: 32px;
     line-height: 40px;
     color: rgba(252, 250, 249, 1);
+    margin-bottom: 12px;
 
 }
 .paragraph2{
@@ -67,6 +72,7 @@ body{
     font-size: 18px;
     line-height: 28px;
     color: rgba(252, 250, 249, 1);
+    margin-bottom: 2.2rem;
 }
 .span{
     font-style: normal;
@@ -74,12 +80,15 @@ body{
     font-size: 65px;
     line-height: 52px;
     color: rgba(252, 250, 249, 1);
+    margin-right: 1rem;
 }
 .paragraph3{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+    color: rgba(252, 250, 249, 1) ;
+    margin-bottom: 2rem;
 }
 /* button android and apple */
 /* apple */
@@ -90,6 +99,16 @@ body{
     color: white;
     margin-bottom: 1rem;
     border-radius: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    
+
 }
 /* android */
 .android{
@@ -97,16 +116,20 @@ body{
     background-color: rgba(252, 250, 249, 1);
     height: 61px;
     border-radius: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;  
     
 }
-
-
-
-
-
-
-
-/* footer section */
+.p{
+    margin-left: 1rem;
+}
+/* footer section xxxxxxxxxxxxxxxxxxxxxx*/
 footer{
     padding: 0 1.5rem;
 }
@@ -117,7 +140,15 @@ footer{
 .footer-paragraph{
     width: 327px;
     margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 .span-footer{
     font-weight: 700;
+}
+.icon{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
 }
