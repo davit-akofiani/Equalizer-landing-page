@@ -30,9 +30,7 @@ I also know how to set background pictures and how propertis and position.
 ## Screenshots
 
 ### General page
-![App Screenshot](https://github.com/davit-akofiani/Equalizer-landing-page/blob/main/screenshot/Capture.JPG?raw=true)
-![App Screenshot](https://github.com/davit-akofiani/Equalizer-landing-page/blob/main/screenshot/Capture2.JPG?raw=true)
-![App Screenshot](https://github.com/davit-akofiani/Equalizer-landing-page/blob/main/screenshot/Capture3.JPG?raw=true)
+
 
 
 
