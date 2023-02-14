@@ -1,7 +1,5 @@
 # Equalizer-landing-page
 
-# Equalizer landing page
-
 This is frontend mentor project which need to use only  HTML and CSS. This project is one page project.
 
 ## Demo
